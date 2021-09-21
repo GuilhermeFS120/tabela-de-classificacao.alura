@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --fonts: "Open Sans", monospace;
+}
+
+* {
+    text-align: center;
+}
+  
+body {
+    font-family: var(--fonts);
+    min-height: 400px;
+    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/tabela-classificacao-bg.png");
+    background-color: #111;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+  
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+  
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+  
+.page-logo {
+    width: 200px;
+}
+  
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+  
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+  
+h1 {
+    color: white;
+}
+
+th {
+    background: white;
+    color: black;
+}
+  
+tr, td {
+    border: solid 1px white;
+    color: white;
+}
+
+td:first-child {
+    background: white;
+    color: black;
+}
+
+.vitoria {
+    width: 10rem;
+}
+
+.empate {
+    width: 10rem;
+}
+
+.derrota {
+    width: 10rem;
+}
+
+.botaoVitoria {
+    margin: 0;
+    padding: 0.5rem 4rem;
+    font-family: var(--fonts);
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: transparent;
+    border: 0;
+    transition: 0.3s;
+}
+.botaoEmpate {
+    margin: 0;
+    padding: 0.5rem 4rem;
+    font-family: var(--fonts);
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: transparent;
+    border: 0;
+    transition: 0.3s;
+}
+.botaoDerrota {
+    margin: 0;
+    padding: 0.5rem 4rem;
+    font-family: var(--fonts);
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: transparent;
+    border: 0;
+    transition: 0.3s;
+}
+
+.botaoVitoria:hover {
+    background: green;
+    cursor: pointer;
+}
+
+.botaoEmpate:hover {
+    background: yellow;
+    cursor: pointer;
+}
+.botaoDerrota:hover {
+    background: red;
+    cursor: pointer;
+}
+
+p {
+    color: white;
+}
+
+input {
+    margin: 0;
+    padding: 0.5rem 0.5rem;
+    border: 2px solid white;
+    font-family: var(--fonts);
+    font-size: 1rem;
+}
+
+button.novoJogador {
+    margin: 0;
+    padding: 0.5rem 0.5rem;
+    border: 2px solid white;
+    background: transparent;
+    font-family: var(--fonts);
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    transition: 0.3s;
+}
+
+button.novoJogador:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
